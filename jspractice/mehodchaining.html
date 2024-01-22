@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        //  Methoad chaining 
+        // let username = window.prompt("Enter your username: ");
+//    username =username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+       
+//    console.log(username);
+
+//     loops while() , do While()
+
+  let logging = false 
+  let username;
+  let passward ;
+  while(!logging){
+    username = window.prompt("please enter you name")
+    passward = window.prompt("please enter you passward")
+    if(username==="myusername" && passward==="mypassord"){
+        logging = true
+        console.log("you have log_in successfully")
+    }else{
+        console.log("please enter correct details");
+    }
+  }
+    </script>
+</body>
+</html>

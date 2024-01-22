@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadows</title>
+    <style>
+        .dropdown{
+            display: inline-block;
+        }
+      .dropdown button{
+        background-color: rgb(61, 208, 76);
+        color: rgb(128, 72, 147);
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+      }
+  
+      .dropdown a{
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 10px 15px;
+      }
+      .dropdown .content{
+        display: none;
+        position: absolute;
+        background-color: aliceblue;
+        min-width: 90px;
+        box-shadow: 2px 2px 5px rgb(55, 55, 50);
+      }
+
+      .dropdown:hover .content{
+        display:block;
+    }
+    .dropdown:hover .button{
+        background-color: rgb(101, 150, 192) ;
+    }
+    .dropdown a:hover{
+       background-color: antiquewhite; 
+    }
+    </style>
+</head>
+<body>
+   
+    <div class="dropdown">
+        <button>Food</button>
+        <div class="content">
+           <a href="orange">orange</a>
+           <a href="mango">mango</a>
+           <a href="banana">banana</a>
+        </div>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium repudiandae perferendis incidunt sunt harum optio recusandae provident culpa ipsum rerum? Iusto rem non eum sit eligendi ab dolore quis debitis!
+    </p>
+
+    
+</body>
+</html>

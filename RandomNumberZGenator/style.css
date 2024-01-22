@@ -1,0 +1,13 @@
+body{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#mybtn{
+    font-size: 4em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.label{
+    font-size: 3em;
+}
